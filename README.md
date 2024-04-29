@@ -5,3 +5,4 @@ this is a kind of clone of a game imfo or database platform i.e. rawg(RAWG is th
 
 deployed it on vercel 
 check it out 
+https://game-hub-chi-gold.vercel.app/
