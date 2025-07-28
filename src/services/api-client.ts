@@ -1,4 +1,5 @@
 import axios, { AxiosRequestConfig } from "axios";
+const dotenv = require("dotenv");
 export interface FetchResponse<T> {
   count: number;
   results: T[];
@@ -7,7 +8,7 @@ export interface FetchResponse<T> {
 const axiosInstance = axios.create({
   baseURL: "https://api.rawg.io/api",
   params: {
-    key: "5b4359dbae4d4b6287a6fb5af0235d60",
+    key: process.env.PORT,
   },
 });
 
